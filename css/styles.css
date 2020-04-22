@@ -36,3 +36,12 @@ html, body {
 h4 {
     color: #ffffff !important;
 }
+
+@media (max-width: 539px) {
+    div.row.mt-4{
+        display: block;
+    }
+    div.card {
+        width: 90vw;
+    }
+}
