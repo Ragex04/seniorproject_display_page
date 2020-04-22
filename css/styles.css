@@ -28,13 +28,35 @@ hr {
 }
 
 .card-avatar {
-    width: 200px;
+    width: 80%;
     margin-top: -60px;
     padding-bottom: 15px;
 }
 
 h4 {
     color: #ffffff !important;
+}
+
+#demo-btn {
+    background-color: #f68536;
+    border-color: #d5732e;
+    font-size: 2em
+}
+
+#demo-btn:hover {
+    background-color: #f99650;
+}
+
+#demo-btn:active:focus {
+    box-shadow: 0 0 0 0.2rem rgba(217, 144, 92, 0.5);
+}
+
+#demo-btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(217, 144, 92, 0.5);
+}
+
+.person-info {
+    min-height: 12em;
 }
 
 @media (max-width: 539px) {
