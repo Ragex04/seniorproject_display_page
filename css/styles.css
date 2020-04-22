@@ -22,8 +22,8 @@ html, body {
     box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18)
 }
 
-.present-header {
-    border-top: thin solid rgba(255, 255, 255, 0.1);
+hr {
+    border-top: thin solid #ffffff;
     padding-top: 25px;
 }
 
