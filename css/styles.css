@@ -55,6 +55,10 @@ h4 {
     box-shadow: 0 0 0 0.2rem rgba(217, 144, 92, 0.5);
 }
 
+.person-info {
+    min-height: 12em;
+}
+
 @media (max-width: 539px) {
     div.row.mt-4{
         display: block;
