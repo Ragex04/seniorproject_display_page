@@ -37,6 +37,24 @@ h4 {
     color: #ffffff !important;
 }
 
+#demo-btn {
+    background-color: #f68536;
+    border-color: #d5732e;
+    font-size: 2em
+}
+
+#demo-btn:hover {
+    background-color: #f99650;
+}
+
+#demo-btn:active:focus {
+    box-shadow: 0 0 0 0.2rem #d9905c;
+}
+
+#demo-btn:focus {
+    box-shadow: 0 0 0 0.2rem #d9905c;
+}
+
 @media (max-width: 539px) {
     div.row.mt-4{
         display: block;
